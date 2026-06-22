@@ -2,9 +2,8 @@
     {
         "caption": "Pantry App",
         "directory": "projects/pantry",
-        "image": ""
-    },
-    {
+        "image": "images/pantry-image.png"
+    },{
         "caption": "EECS 2032",
         "directory": "projects/eecs2032",
         "image": "https://www.nxp.com/assets/images/en/dev-board-image/FRDM-KL43Z-ANGLE.jpg"
