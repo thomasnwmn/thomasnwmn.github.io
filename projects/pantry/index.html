@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pantry App - Thomas Newman</title>
+            <link rel="stylesheet" href="/styles.css">
+            <link rel="icon" href="/images/logo white.svg" type="image/svg+xml">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/html.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/css.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.9.0/highlightjs-line-numbers.min.js"></script>
+        </head>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZDZDL4K19"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3ZDZDL4K19');
+        </script>
+        
+        <body>
+            <div id="particles-js"></div>
+
+            <script src="/scripts/particles.js"></script>
+            <script src="/scripts/front.js"></script>
+
+            <div class="content">
+                <h1 class="large-header align-center" id="Pantry App">Pantry App</h1>
+                <p class="align-center">June 2026 - Access at <a href="https://pantry.thomasnewman.ca" class="links">pantry.thomasnewman.ca</a></p>
+                <hr>
+
+                <div class="aboutme">
+                    <div class="bio thick">
+                        <p>This was my first full-stack project, which included a backend powered by Supabase, 
+                            and payment processing using Stripe.  It's an app called Pantry, and it helps you keep track of what you have in your pantry from anywhere.
+                            <br> <br>My goal for this was to give it a mature feeling, its fast and snappy, and looks professional.  It makes uses of a user database, that they can add to whenever they want to create an item.
+                            After the users add their items, all of the information that was entered is saved to the database, and when you search the database, you can find those items again.
+                            <br> <br>The premium subscription gives you access to unlimited items in your pantry, while the free version limits you to 50 entries (more than enough for a single person, but families might want premium).
+                            The premium features include smart recipes (for quickly finding something you can make with what you've got) & smart grocery lists (for quickly finding items you're missing), as well as family pantry sync, folders, etc.
+                            This project is very much still in progress, so many features are not available yet or not fully implemented.
+                        </p>
+                    </div>
+                    <figure id="pfp">
+                        <img src="/images/wutheringWaves.webp" alt="Profile Picture" class="profilepic projectimgWide">
+                        <figcaption class="align-center">The logo for Wuthering Waves</figcaption>
+                    </figure>
+                    <hr>
+                    <div class = "flex">
+                        <h2 class="medium-header" id="features">Features</h2>
+                        <ul>
+                            <li>Powered by Supabase and Stripe on Next.JS</li>
+                            <li>Users can sign up and make an account using the traditional method but also Sign In with Google</li>
+                            <li>Users can easily add items to the public database, featuring any nutrition information available on the label</li>
+                            <span style="color: gold">Premium Features</span>
+                            <li>Smart grocery list (WIP)</li>
+                            <li>Smart recipe generator (WIP)</li>
+                            <li>Family Pantry (WIP)</li>
+                        </ul>
+                        <hr>
+                        <h2 class="medium-header" id="code">Code</h2>
+                        <div class="code-box">
+                            <div class="code-header">
+                                <div class="file-selector">
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/app/dashboard/page.tsx?token=GHSAT0AAAAAAD4QPHGLCH23HQHLMO4EINLS2RZL4AA">dashboard/page.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/app/pricing/page.tsx?token=GHSAT0AAAAAAD4QPHGKB4B32VOVUGPBYRSO2RZL5BA">pricing/page.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/components/AddItemModal.tsx?token=GHSAT0AAAAAAD4QPHGLKB6LGIC6XHZWC7KY2RZL57A">componenets/AddItemModal.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/components/EditItemModal.tsx?token=GHSAT0AAAAAAD4QPHGLYUXGJAWEM45IA4V22RZL7KQ">components/EditItemModal.tsx</button>
+                                    <button class="file-btn" data-file="https://github.com/thomasnwmn/pantry-app/blob/main/pantry/components/ItemCard.tsx">components/ItemCard.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/components/Navbar.tsx?token=GHSAT0AAAAAAD4QPHGLTA7RID4S3EUMI6VK2RZMCKQ">components/Navbar.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/components/PantryList.tsx?token=GHSAT0AAAAAAD4QPHGK2MDS6U44CPL7MIZE2RZMC3A">components/PantryList.tsx</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/app/api/webhooks/stripe/route.ts?token=GHSAT0AAAAAAD4QPHGKXLRQO5UCK4M7OO662RZMIEA">api/webhooks/stripe/route.ts</button>
+                                    <button class="file-btn" data-file="https://raw.githubusercontent.com/thomasnwmn/pantry-app/refs/heads/main/pantry/app/api/checkout_sessions/route.ts?token=GHSAT0AAAAAAD4QPHGLN6ZOBQUSZGOTK35A2RZMJGQ">api/checkout_sessions/route.ts</button>
+                                </div>
+                                <div class="tool-buttons">
+                                    <button class="copy-btn">Copy</button>
+                                    <button class="raw-btn">View Raw</button>
+                                    <a class="download-link" href="#">Download</a>
+                                </div>
+                            </div>
+                            <pre><code>Loading code...</code></pre>
+                        </div>
+                        <hr>
+                        <h2 class="medium-header" id="requirements">Requirements</h2>
+                        <h3 class="small-header">Hardware</h3>
+                        <ul>
+                            <li>Laptop - <strong>Used to access the website</strong></li>
+                        </ul>
+                        <h3 class="small-header">Software</h3>
+                        <ul>
+                            <li>Visual Studio Code(recommended) - <strong>Used to run and edit code on the website</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <br><hr>
+                <footer>
+                    <p class="footer align-center">Last updated: <span id="last-updated"></span><br>© 2026 Thomas Newman</p>
+                </footer>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </body>
+    </html>
